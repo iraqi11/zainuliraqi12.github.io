@@ -1,0 +1,246 @@
+/* Universal */
+html, body {
+	font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/* Universal */
+
+/* Header */
+.header-section {
+	padding-top: 15px;
+	padding-bottom: 27px;
+	position: relative;
+}
+
+.site-logo {
+	display: inline-block;
+	padding-top: 25px;
+    padding-left: 90px;
+}
+
+.logo{
+    width: 250px;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	padding-right: 40px;
+}
+
+.main-menu li {
+	display: inline-block;
+}
+
+.main-menu li a {
+	display: block;
+	font-size: 13px;
+	color: red;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 25px 0;
+	margin-right: 45px;
+}
+/* Header */
+
+/* section */
+.profile-section {
+    padding: 50px 15px;
+    position: relative;
+    height: 450px;
+}
+
+.profile-warp {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.profile-text{
+    padding-left: 30px;
+    width: 50%;
+    float: left;
+}
+
+.profile-text h1 {
+	font-size: 48px;
+	margin-bottom: 25px;
+}
+
+.profile-text p {
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+.profile-foto {
+    width: 45%;
+    float: right;
+}
+
+.foto_profile{
+	background: url("../gambar/.logo");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 300px;
+}
+
+	/* form */
+	.btn {
+		border: none;
+		font-size: 14px;
+		padding: 24px 47px;
+		border-radius: 0;
+		text-transform: uppercase;
+		color:black;
+		cursor: pointer;
+		background: #ffff;
+	}
+
+	input:focus,
+	select:focus,
+	button:focus,
+	textarea:focus {
+		outline: none;
+	}
+
+	.contact-section {
+		position: relative;
+		padding: 120px 0;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.contact-form {
+		padding-top: 20px;
+	}
+
+	.contact-form input,
+	.contact-form textarea {
+		font-size: 14px;
+		color: #7d7d7d;
+		border: none;
+		border-bottom: 1px solid #b2b2b2;
+		padding-bottom: 14px;
+		margin-bottom: 20px;
+	}
+
+	.contact-form input{
+		width: 50%;
+	}
+
+	.contact-form textarea {
+		width: 100%;
+	}
+
+	.contact-form textarea {
+		height: 165px;
+		margin-bottom: 38px;
+	}
+
+	.contact-msg::-webkit-input-placeholder {
+		padding-top: 130px;
+	}
+	/* form */
+
+	/* table */
+	table {
+		margin: auto;
+		color: goldenrod;
+		border-collapse: collapse;
+		width: 50%;
+	}
+	
+	table th {
+		border: 1px solid black;
+		padding: 8px 20px;
+		background: cyan ;
+        color:black;
+		font-weight: normal;
+	}
+	
+	table td:first-child {
+		text-align: left;
+		padding-left: 20px;
+	}
+	
+	table td {
+		border-bottom: 1px solid blue;
+		padding: 8px 20px;
+		text-align: center;
+		background: #fbfbfb;
+	}
+	
+	.private-data-section {
+		position: relative;
+		background: green ;
+		background: -webkit-linear-gradient(bottom, #2e58a6 , red );
+		background: -o-linear-gradient(bottom, #2e58a6 , red );
+		background: -moz-linear-gradient(bottom, #2e58a6 , red );
+		background: linear-gradient(bottom, #2e58a6 , red );
+	}
+	
+	.private-data-container {
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		padding: 33px 100px;
+	}
+	
+	.private-data-wrap {
+		width: 100%;
+	}
+	
+	.private-data-table {
+		z-index: 1000;
+	}
+	
+	.private-data-table h2 {
+		text-align: center;
+	}
+	/* table */
+
+/* section */
+
+/* footer */
+.footer-section {
+	background: #212121;
+	padding: 19px 40px;
+	position: relative;
+}
+
+.footer-social {
+    text-align: right;
+	margin-right: 30px;
+	height: 40px;
+	padding-top: 40px;
+}
+
+.footer-social a {
+	margin-right: 50px;
+}
+
+.icon{
+	width: 20px;
+}
+
+.footer-copyright {
+	color: #fff;
+	font-size: 11px;
+	font-weight: 500;
+    padding: 4px 0;
+}
+/* footer */
+
+/* Support */
+.merah{
+    background: red;
+}
+
+.biru{
+    background: blue;
+}
+/* Support */
